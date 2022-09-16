@@ -1,0 +1,61 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+    
+}
+body{
+     box-sizing: border-box;
+     
+}
+#google{
+    text-align: center;
+    padding: 15px;
+    margin: 55px 100px ;
+   
+}
+.but{
+    background-color: rgb(255, 247, 247);
+    border-radius:0px;
+    border: 1px solid white;
+    cursor: pointer;
+
+}
+input[type=search]{
+    border:1px solid #ECC5FB;
+    width: 48%;
+    height:45px;
+    border-radius: 20px;
+}
+input[type=search]:hover{
+    border: 1px solid grey ;
+}
+input[type=submit]{
+    border:1px #ECC5FB;
+    background-color:#F9F9F9;
+    cursor: pointer;
+    font-weight: lighter;
+    padding: 8px 8px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+input[type=submit]:hover{
+    
+    border:0.5px solid grey;
+    position:sticky;
+}
+h4 a{
+    text-align: center;
+    text-decoration: solid;
+    font-weight:lighter;
+      
+}
+h4{
+    font-weight: lighter;
+    word-spacing: 2px;
+}
+
+span{
+    color: blue;
+    font-weight: lighter;
+}
